@@ -1,0 +1,19 @@
+.navigation-bar{
+    background-color: #1C2B35;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.navigation-bar a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: white;
+    font-weight: 600;
+}
+.navigation-bar a:hover{
+    color: orangered;
+    transition: .8s;
+}
